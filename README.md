@@ -1,2 +1,0 @@
-# builtbyburgess
-Jason's website
