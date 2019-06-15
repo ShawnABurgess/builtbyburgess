@@ -452,6 +452,28 @@ section.webuild .badges .badge-link img {
   }
 }
 
+section.inTheLoop {
+  padding: 150px 0;
+  position: relative;
+}
+
+.bg-inTheLoop{
+  background: #e1ecbb;
+  background: -webkit-linear-gradient(#e1ecbb, #faffe8);
+  background: linear-gradient(#e1ecbb, #faffe8);
+}
+
+section.inTheLoop h2 {
+  margin-top: 0;
+  font-size: 50px;
+}
+
+@media (min-width: 768px) {
+  section.inTheLoop h2 {
+    font-size: 70px;
+  }
+}
+
 
 
 section.video {
@@ -461,9 +483,7 @@ section.video {
 }
 
 .bg-video{
-  background: #e1ecbb;
-  background: -webkit-linear-gradient(#e1ecbb, #faffe8);
-  background: linear-gradient(#e1ecbb, #faffe8);
+  background: #efeeef;
 }
 
 section.video h2 {
@@ -774,3 +794,10 @@ body {
     display: none;
 }
 
+.small {
+  height: 150px;
+  overflow:hidden;
+}
+.big {
+  height: auto;
+}
