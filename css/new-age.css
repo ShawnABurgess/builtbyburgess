@@ -241,7 +241,7 @@ header {
   width: 100%;
   min-height: auto;
   overflow-y: hidden;
-  background-image: url('../img/houseWithGrassBlur.jpg');
+
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -255,6 +255,16 @@ header {
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: white;
 }
+
+
+.no-webp header {
+  background-image: url('../img/houseWithGrassBlur.jpg');
+}
+
+.webp header{
+  background-image: url('../img/houseWithGrassBlur.webp');
+}
+
 header .overlay {
   height: 100%;
   width: 100%;
@@ -562,7 +572,14 @@ section.cta {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
+}
+
+.no-webp section.cta {
   background-image: url('../img/lensflare.jpg');
+}
+
+.webp section.cta{
+  background-image: url('../img/lensflare.webp');
 }
 
 @media (min-width: 992px) {
