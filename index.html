@@ -274,7 +274,7 @@
 	
     <footer>
         <div class="container">
-            <p>&copy; 2019 Burgess Homes LLC.</p>
+            <p>&copy;<span id="yearSpan">2020</span> Burgess Homes LLC.</p>
             <ul class="list-inline">
                 <li>
                     <a href="mailto:jason@builtbyburgess.com">jason@builtbyburgess.com</a>
@@ -308,6 +308,8 @@
             $(this).text(this.expand?"Click to collapse":"Click to read more");
             $(this).closest('.expando').find('.small, .big').toggleClass('small big');
         });
+
+        document.getElementById("yearSpan").innerHTML = new Date().getFullYear();
 	});
 	</script>
 
