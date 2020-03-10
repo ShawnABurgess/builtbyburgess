@@ -265,6 +265,14 @@ header {
   background-image: url('../img/houseWithGrassBlur.webp');
 }
 
+.webp header.login-page {
+  background-image: url('../img/0508181734-blur.webp');
+}
+
+.no-webp header.login-page {
+  background-image: url('../img/0508181734-blur.jpg');
+}
+
 header .overlay {
   height: 100%;
   width: 100%;

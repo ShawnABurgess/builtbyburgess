@@ -65,6 +65,9 @@
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
                     </li>
+                    <li>
+                        <a href="login.html">Client Login</a>
+                    </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -224,41 +227,13 @@
             <h1>Interested in building a comfortable, worry free home?</h1>
             <h3>Or maybe you’re looking to upgrade an existing home to better suit your needs.<br />Planning is the most important step and can take time, let’s setup a meeting</h3>
             <br />
-            <form action="https://formspree.io/jason@builtbyburgess.com" target="_blank" method="POST">
-                <div class="form-group row">
-                    <label for="inputname" class="col-md-2 col-form-label">Name</label>
-                    <div class="col-md-10">
-                        <input type="text" name="name" class="form-control" id="inputname" placeholder="Enter Name">
-                    </div>
-                </div>
-                <div class="form-group row">
-                    <label for="inputlocation" class="col-md-2 col-form-label">Location</label>
-                    <div class="col-md-10">
-                        <input type="text" name="location" class="form-control" id="inputlocation" placeholder="Enter Project Location">
-                    </div>
-                </div>
-                <div class="form-group row">
-                    <label for="TypeOfProject" class="col-md-2 col-form-label">Type of Project</label>
-                    <div class="col-md-10">
-                        <input type="text" name="TypeOfProject" class="form-control" id="TypeOfProject" placeholder="Enter Type of Project (ex:  New Home, Remodel, New Kitchen, etc.)">
-                    </div>
-                </div>
-                
-                <div class="form-group row">
-                    <label for="inputEmail1" class="col-md-2 col-form-label">Email address</label>
-                    <div class="col-md-10">
-                        <input type="email" name="email" class="form-control" id="inputEmail1" placeholder="Enter Your Email Address">
-                        <small id="emailHelp" class="form-text text-muted">We'll never share your personal information with anyone else.</small>
-                    </div>
-                </div>
-                <div class="form-group row">
-                    <label for="inputPhone" class="col-md-2 col-form-label">Phone</label>
-                    <div class="col-md-10">
-                        <input type="tel" name="Phone" class="form-control" id="inputPhone" placeholder="Enter Your Phone Number">
-                    </div>
-                </div>
-				<input type="submit" class="btn btn-dark-outline btn-xl page-scroll" data-toggle="modal" data-target="#myModal" />
-            </form>
+            <!-- Form -->
+
+            <script type="text/javascript" src="https://buildertrend.net/leads/contactforms/js/btClientContactForm.js"></script>
+
+            <iframe src="https://buildertrend.net/leads/contactforms/ContactFormFrame.aspx?builderID=51068" scrolling="no" id="btIframe" style="background:transparent;border:0px;margin:0 auto;width:100%;"></iframe>
+
+            <!-- /Form -->
         </div>
     </section>
 
